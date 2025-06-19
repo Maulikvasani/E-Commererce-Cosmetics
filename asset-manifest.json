@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/E-Commererce-Cosmetics/static/css/main.640d5f17.css",
+    "main.js": "/E-Commererce-Cosmetics/static/js/main.7e7194d7.js",
+    "index.html": "/E-Commererce-Cosmetics/index.html",
+    "main.640d5f17.css.map": "/E-Commererce-Cosmetics/static/css/main.640d5f17.css.map",
+    "main.7e7194d7.js.map": "/E-Commererce-Cosmetics/static/js/main.7e7194d7.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.640d5f17.css",
+    "static/js/main.7e7194d7.js"
+  ]
+}
