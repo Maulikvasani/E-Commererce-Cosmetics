@@ -1,0 +1,170 @@
+/* Match Nutrition Layout & Style */
+
+.skincare-page {
+  background: #fff;
+  font-family: 'Arial', sans-serif;
+  min-height: 100vh;
+}
+.skincare-header {
+  background: #aee5cf;
+  padding: 32px 0 24px 0;
+  text-align: left;
+}
+.skincare-breadcrumbs {
+  color: #666;
+  font-size: 14px;
+  margin-left: 60px;
+  margin-bottom: 8px;
+}
+.skincare-title {
+  color: #222;
+  font-size: 2.5rem;
+  font-weight: 600;
+  margin-left: 60px;
+}
+.skincare-tabs {
+  display: flex;
+  justify-content: center;
+  background: #fff;
+  border-bottom: 1px solid #eee;
+  padding: 0;
+  margin-bottom: 0;
+}
+.skincare-tab {
+  padding: 18px 28px 14px 28px;
+  font-size: 1rem;
+  color: #222;
+  font-weight: 500;
+  cursor: pointer;
+  border-bottom: 2px solid transparent;
+  transition: border 0.2s, color 0.2s;
+}
+.skincare-tab:hover,
+.skincare-tab.active {
+  color: #43e97b;
+  border-bottom: 2px solid #43e97b;
+}
+.skincare-toolbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 30px auto 0 auto;
+  padding: 0 20px;
+  color: #222;
+  font-size: 1rem;
+}
+.skincare-filter,
+.skincare-recommended {
+  cursor: pointer;
+  font-weight: 500;
+}
+.skincare-count {
+  font-size: 1rem;
+  color: #666;
+}
+.skincare-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 32px;
+  max-width: 1200px;
+  margin: 32px auto 0 auto;
+  padding: 0 20px 40px 20px;
+}
+.skincare-card {
+  background: #fff;
+  border: 1px solid #eee;
+  border-radius: 16px;
+  box-shadow: 0 2px 8px rgba(67, 233, 123, 0.04);
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 16px;
+  transition: box-shadow 0.2s;
+}
+.skincare-card:hover {
+  box-shadow: 0 8px 24px rgba(67, 233, 123, 0.12);
+}
+.skincare-img {
+  width: 100%;
+  height: 180px;
+  object-fit: contain;
+  margin-bottom: 12px;
+  background: #f8f9fa;
+}
+.skincare-card-body {
+  text-align: center;
+  padding: 0 8px;
+}
+.skincare-card-title {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #222;
+  margin-bottom: 6px;
+}
+.skincare-card-rating {
+  font-size: 0.95rem;
+  color: #222;
+  margin-bottom: 4px;
+}
+.skincare-stars {
+  color: #fbc02d;
+  margin-right: 4px;
+}
+.skincare-reviews {
+  color: #666;
+  font-size: 0.9rem;
+}
+.skincare-card-price {
+  font-size: 1rem;
+  color: #222;
+  font-weight: 500;
+}
+.skincare-card-mrp {
+  font-size: 0.85rem;
+  color: #888;
+  margin-bottom: 8px;
+}
+.skincare-card-fav,
+.skincare-card-cart {
+  position: absolute;
+  top: 12px;
+  background: #fff;
+  border: 1px solid #eee;
+  border-radius: 50%;
+  width: 36px;
+  height: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.2rem;
+  cursor: pointer;
+  transition: background 0.2s, color 0.2s;
+}
+.skincare-card-fav {
+  left: 12px;
+}
+.skincare-card-cart {
+  right: 12px;
+}
+.skincare-card-fav:hover,
+.skincare-card-cart:hover {
+  background: #43e97b;
+  color: #fff;
+}
+
+/* NEW PRODUCT Label */
+.skincare-card::before {
+  content: "NEW PRODUCT";
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background-color: #c7f1dd;
+  color: #2c5f46;
+  font-size: 12px;
+  font-weight: bold;
+  padding: 2px 8px;
+  border-radius: 5px;
+}

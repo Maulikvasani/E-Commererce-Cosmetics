@@ -1,0 +1,129 @@
+.nutrition-page {
+  background: #fff;
+  font-family: 'Arial', sans-serif;
+  min-height: 100vh;
+}
+.nutrition-header {
+  background: #aee5cf;
+  padding: 32px 0 24px 0;
+  text-align: left;
+}
+.nutrition-breadcrumb {
+  color: #666;
+  font-size: 14px;
+  margin-left: 60px;
+  margin-bottom: 8px;
+}
+.nutrition-title {
+  color: #222;
+  font-size: 2.5rem;
+  font-weight: 600;
+  margin-left: 60px;
+}
+.nutrition-toolbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 30px auto 0 auto;
+  padding: 0 20px;
+  color: #222;
+  font-size: 1rem;
+}
+.nutrition-filter, .nutrition-recommended {
+  cursor: pointer;
+  font-weight: 500;
+}
+.nutrition-count {
+  font-size: 1rem;
+  color: #666;
+}
+.nutrition-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 32px;
+  max-width: 1200px;
+  margin: 32px auto 0 auto;
+  padding: 0 20px 40px 20px;
+}
+.nutrition-card {
+  background: #fff;
+  border: 1px solid #eee;
+  border-radius: 16px;
+  box-shadow: 0 2px 8px rgba(67, 233, 123, 0.04);
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 16px;
+  transition: box-shadow 0.2s;
+}
+.nutrition-card:hover {
+  box-shadow: 0 8px 24px rgba(67, 233, 123, 0.12);
+}
+.nutrition-img {
+  width: 100%;
+  height: 180px;
+  object-fit: contain;
+  margin-bottom: 12px;
+  background: #f8f9fa;
+}
+.nutrition-card-body {
+  text-align: center;
+  padding: 0 8px;
+}
+.nutrition-card-title {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #222;
+  margin-bottom: 6px;
+}
+.nutrition-card-rating {
+  font-size: 0.95rem;
+  color: #222;
+  margin-bottom: 4px;
+}
+.nutrition-stars {
+  color: #fbc02d;
+  margin-right: 4px;
+}
+.nutrition-reviews {
+  color: #666;
+  font-size: 0.9rem;
+}
+.nutrition-card-price {
+  font-size: 1rem;
+  color: #222;
+  font-weight: 500;
+}
+.nutrition-card-mrp {
+  font-size: 0.85rem;
+  color: #888;
+  margin-bottom: 8px;
+}
+.nutrition-card-fav, .nutrition-card-cart {
+  position: absolute;
+  top: 12px;
+  background: #fff;
+  border: 1px solid #eee;
+  border-radius: 50%;
+  width: 36px;
+  height: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.2rem;
+  cursor: pointer;
+  transition: background 0.2s, color 0.2s;
+}
+.nutrition-card-fav {
+  left: 12px;
+}
+.nutrition-card-cart {
+  right: 12px;
+}
+.nutrition-card-fav:hover, .nutrition-card-cart:hover {
+  background: #43e97b;
+  color: #fff;
+}

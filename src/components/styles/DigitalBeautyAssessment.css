@@ -1,0 +1,76 @@
+.digital-beauty-assessment {
+  display: flex;
+  align-items: center;
+  background-color: #f9f9f9; /* Light grey background */
+  padding: 50px 20px;
+  margin: 40px 0;
+  border-radius: 10px;
+}
+
+.assessment-image {
+  flex: 1;
+  padding-right: 30px;
+}
+
+.assessment-image img {
+  max-width: 100%;
+  border-radius: 8px;
+}
+
+.assessment-content {
+  flex: 1;
+  padding-left: 30px;
+}
+
+.assessment-content h2 {
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.assessment-content p {
+  font-size: 1rem;
+  color: #666;
+  line-height: 1.6;
+  margin-bottom: 30px;
+}
+
+.know-more-btn {
+  background-color: #fff;
+  color: #333;
+  border: 2px solid #333;
+  padding: 12px 30px;
+  border-radius: 5px;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.know-more-btn:hover {
+  background-color: #333;
+  color: #fff;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .digital-beauty-assessment {
+    flex-direction: column;
+    text-align: center;
+    padding: 30px 15px;
+  }
+
+  .assessment-image {
+    padding-right: 0;
+    margin-bottom: 20px;
+  }
+
+  .assessment-content {
+    padding-left: 0;
+  }
+
+  .assessment-content h2 {
+    font-size: 1.8rem;
+  }
+}

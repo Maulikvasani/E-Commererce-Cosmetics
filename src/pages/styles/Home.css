@@ -1,0 +1,55 @@
+.home-container {
+  font-family: 'Arial', sans-serif;
+  background-color: #fff; /* Ensuring a white background for content areas */
+}
+
+.main-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px 15px; /* Standardized padding */
+}
+
+/* General section styling for consistent spacing */
+.home-section {
+  padding: 40px 0; /* Vertical padding for sections */
+  margin-bottom: 30px; /* Space between sections */
+}
+
+.home-section:last-child {
+  margin-bottom: 0;
+}
+
+/* Styles for section titles if they are used directly in Home.jsx */
+.section-title {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 30px;
+  color: #333;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+/* Ensure product grids and other components have appropriate margins */
+.product-grid-container, /* Assuming this class is used for ProductGrid wrapper */
+.digital-beauty-assessment-container, /* Assuming this class for DigitalBeautyAssessment wrapper */
+.social-showcase-container {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+/* Responsive adjustments for padding on smaller screens */
+@media (max-width: 768px) {
+  .main-content {
+    padding: 15px 10px;
+  }
+
+  .home-section {
+    padding: 30px 0;
+  }
+
+  .section-title {
+    font-size: 1.6rem;
+    margin-bottom: 20px;
+  }
+}
